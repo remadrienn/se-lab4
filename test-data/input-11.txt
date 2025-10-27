@@ -1,0 +1,5 @@
+# TC11: ALL mode with mixed states
+GT4500,1,0,0,0  # primary: 1 torpedo, secondary: empty
+TORPEDO,ALL      # should SUCCESS (primary works)
+TORPEDO,ALL      # should FAIL (primary now empty)
+EXIT

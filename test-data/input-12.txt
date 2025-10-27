@@ -1,0 +1,7 @@
+# TC12: Complex alternating with empty store handling
+GT4500,2,0,1,0  # primary: 2, secondary: 1 torpedo
+TORPEDO,SINGLE   # 1: primary (SUCCESS)
+TORPEDO,SINGLE   # 2: secondary (SUCCESS)  
+TORPEDO,SINGLE   # 3: primary (SUCCESS)
+TORPEDO,SINGLE   # 4: FAIL (both empty)
+EXIT

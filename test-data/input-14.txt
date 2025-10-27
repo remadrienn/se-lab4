@@ -1,0 +1,5 @@
+# TC14: Alternating with initially empty stores
+GT4500,0,0,1,0  # primary empty, secondary has 1 torpedo
+TORPEDO,SINGLE   # 1: should use secondary (SUCCESS)
+TORPEDO,SINGLE   # 2: should try primary (empty) → FAIL
+EXIT
