@@ -1,0 +1,4 @@
+# TC07: Both stores failing in SINGLE mode
+GT4500,1,1.0,1,1.0  # both stores always fail
+TORPEDO,SINGLE       # should FAIL
+EXIT

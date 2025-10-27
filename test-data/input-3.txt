@@ -1,0 +1,5 @@
+# TC04: If next store is empty, switch to the other
+GT4500,2,0,0,0  # secondary empty
+TORPEDO,SINGLE  # First: primary (success)
+TORPEDO,SINGLE  # Should try secondary but empty, so primary again
+EXIT

@@ -1,0 +1,4 @@
+# TC13: ALL mode both stores failing
+GT4500,1,1.0,1,1.0  # both stores always fail (100% failure rate)
+TORPEDO,ALL          # should FAIL (both stores fail)
+EXIT

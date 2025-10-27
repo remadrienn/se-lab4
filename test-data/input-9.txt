@@ -1,0 +1,8 @@
+# TC09: Complex alternating with different counts
+GT4500,3,0,1,0  # primary: 3, secondary: 1 torpedo
+TORPEDO,SINGLE  # 1: primary (SUCCESS)
+TORPEDO,SINGLE  # 2: secondary (SUCCESS)
+TORPEDO,SINGLE  # 3: primary (SUCCESS) 
+TORPEDO,SINGLE  # 4: primary (SUCCESS - secondary empty)
+TORPEDO,SINGLE  # 5: FAIL (both empty)
+EXIT

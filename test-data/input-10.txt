@@ -1,0 +1,5 @@
+# TC10: Empty primary store initially - should use secondary
+GT4500,0,0,2,0  # primary empty, secondary has 2 torpedos  
+TORPEDO,SINGLE   # first shot: uses secondary (SUCCESS)
+TORPEDO,SINGLE   # second shot: should try primary (empty) → secondary (SUCCESS)!
+EXIT

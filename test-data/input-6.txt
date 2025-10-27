@@ -1,0 +1,4 @@
+# TC06: Empty primary, full secondary - should switch to secondary
+GT4500,0,0,2,0  # primary empty, secondary has 2 torpedos
+TORPEDO,SINGLE   # should fire from secondary (SUCCESS)
+EXIT
