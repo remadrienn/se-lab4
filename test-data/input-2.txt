@@ -1,0 +1,5 @@
+# TC02: Second SINGLE shot should be from secondary store
+GT4500,2,0,2,0
+TORPEDO,SINGLE  # First shot - primary
+TORPEDO,SINGLE  # Second shot - secondary  
+EXIT

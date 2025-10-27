@@ -1,0 +1,4 @@
+# TC01: First SINGLE shot should be from primary store
+GT4500,2,0,2,0
+TORPEDO,SINGLE
+EXIT
