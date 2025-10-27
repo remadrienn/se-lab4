@@ -1,0 +1,4 @@
+# TC08: ALL mode with one empty store
+GT4500,1,0,0,0  # secondary empty
+TORPEDO,ALL      # should SUCCESS (primary works)
+EXIT

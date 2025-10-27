@@ -1,0 +1,6 @@
+# TC10: Alternating with one failing store
+GT4500,2,0.5,2,0  # primary 50% fail, secondary works
+TORPEDO,SINGLE     # random result
+TORPEDO,SINGLE     # should work (secondary)
+TORPEDO,SINGLE     # random result
+EXIT
